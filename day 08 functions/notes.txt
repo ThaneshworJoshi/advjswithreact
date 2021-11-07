@@ -1,0 +1,15 @@
+Null is a object. why?
+Actually, Null as an object is regarded as a mistake.
+
+Use Script?
+It should be executed in "strict mode"
+it was described in version 5.
+It is not a statement, but a literal expression ignored by earlier version of js
+it is used to indicated that the code should be execulted in "strict mode"
+with strict mode, you cannot for example use undecleared variable.
+for example: -
+let or any operator is required while initializing variables.
+
+Ternary operator?:
+
+local variable
