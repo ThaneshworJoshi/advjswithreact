@@ -55,3 +55,18 @@ let sayHi = function(firstName="Tyagi", lastName="Sen"){
     console.log(firstName, lastName)
 }
 console.log(sayHi)
+
+let nameOfPeople = ['samir', 'tyagi', 'raj', 'arsana']
+for(let i=0; i<nameOfPeople.length; i++){
+    let myPeopleName = nameOfPeople[i]
+    let namedFunc = (names) =>{
+        if(names==='tyagi')
+            return `This man MR ${names} is selected.`;
+        else{
+            return `This man ${names} not selected`
+        }
+    }
+    console.log(namedFunc(myPeopleName));
+}
+
+
