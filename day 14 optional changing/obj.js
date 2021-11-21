@@ -36,3 +36,21 @@ console.log(string[string.length-1])
 for(let char of string){
   console.log(char)
 }
+// strings. It is immutable
+let mystr = "hello tyagi";
+for(let str of mystr){
+  console.log(str)
+}
+console.log(mystr[3])
+// function myfunc(value,index, arrray)
+// changing to uppercase.
+console.log(mystr.toUpperCase())
+console.log(mystr.toLocaleLowerCase())
+
+// searching for substring, ways to find substring
+console.log(mystr.indexOf('hello'))
+console.log(mystr.lastIndexOf('hello'))
+console.log(mystr.endsWith('r'))//to findif the letter in the last contains that letter
+
+// substring slicing
+console.log(mystr.slice(2,5))
