@@ -1,5 +1,6 @@
 // filter method. filter return whole array 
 // find method finds the value but only the first value and it is a string
+//if we return true in filter we get values, but if we return true in map we get true in array.
 let myarr = [1,3,5,2, 64, 6,7]
 let result = myarr.filter(function(item, index, array){
     if (item>6){
